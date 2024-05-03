@@ -15,16 +15,13 @@ body{
 }
 
 .nav{
-    margin-top: 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
     height: 3rem;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    border: solid 2px #81ecff;
-    border-radius: 15px;
+    border-bottom: solid 2px #81ecff;
+    border-radius: 5px;
 }
 
 .nav p{
@@ -55,7 +52,7 @@ body{
     padding: 0.2rem 2rem;
     background-color: #2e4e53;
     color: #b3b2b2;
-    border-radius: 10rem;
+    border-radius: 15px;
     border: 2px solid #b3b2b2;
     cursor: pointer;
 }
@@ -64,17 +61,11 @@ body{
     background-color: #b3b2b2;
     color: #2e4e53;
     border: 2px solid #b3b2b2;
-    border-radius: 5rem;
+    border-radius: 10px;
 }
 
 
-@media screen and (max-width: 700px) {
-    .nav{
-        margin-top: 0.5rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    
+@media screen and (max-width: 700px) {    
     .nav p{
         font-size: 0.9rem;
     }
@@ -95,9 +86,6 @@ body{
 
 @media screen and (max-width: 450px) {        
     .nav{
-        margin-top: 0rem;
-        margin-left: 0rem;
-        margin-right: 0rem;
         border: none;
         border-bottom: 2px solid #81ecff;
         border-radius: 0rem;
