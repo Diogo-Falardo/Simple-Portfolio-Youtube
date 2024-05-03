@@ -57,6 +57,10 @@ body{
     cursor: pointer;
 }
 
+.nav .nav-m ul li:last-child{
+    margin-right: 4rem;
+}
+
 .nav .nav-m ul li:hover{
     background-color: #b3b2b2;
     color: #2e4e53;
@@ -64,10 +68,9 @@ body{
     border-radius: 10px;
 }
 
-
 @media screen and (max-width: 700px) {    
     .nav p{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
     
     .nav .nav-l{
@@ -80,8 +83,13 @@ body{
 
     .nav .nav-m ul li{
         margin-right: 1rem;
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
+
+    .nav .nav-m ul li:last-child{
+        margin-right: 0rem;
+    }
+
 }
 
 @media screen and (max-width: 450px) {        
@@ -106,12 +114,28 @@ body{
         justify-content: center;
     }
 
+    .nav .nav-m ul li:last-child{
+        margin-right: 0rem;
+    }
+
     .nav .nav-m ul{
         margin: 0;
         padding: 0;
     }
 
     .nav .nav-m ul li{
+        font-size: 1rem;
         margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {       
+    
+    .nav .nav-m ul li{
+        font-size: 0.9rem;
+    }
+
+    .nav .nav-m ul li:last-child{
+        margin-right: 0rem;
     }
 }
